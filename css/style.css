@@ -10,9 +10,58 @@
 }
 
 .titolo {
-    width: 80%;
-    height: 100px;
+    width: 85%;
+    height: 85px;
     margin: auto;
     background-color: violet;
     margin-top: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.high-section {
+    width: 85%;
+    min-height: 300px;
+    margin: 18px auto;
+    background-color: #e1d67a;
+}
+
+.low-section {
+    width: 85%;
+    margin: auto;
+    background-color: #0186ff;
+    margin-top: 15px;
+}
+
+.row-up-col {
+    min-height: 50px;
+    background-color: #abcfe7;
+}
+
+.left-col, .right-col {
+    width: 20%;
+    min-height: 315px;
+    float: left;
+    background-color: #abcfe7;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.middle-col {
+    width: calc(60% - 24px);
+    min-height: 315px;
+    float: left;
+    margin: 15px 12px;
+    background-color: #abcfe7;
+}
+
+.row-down-col {
+    width: 85%;
+    min-height: 40px;
+    margin: 5px auto;
+    background-color: #8801fe;
 }
