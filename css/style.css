@@ -13,8 +13,8 @@
     width: 85%;
     height: 85px;
     margin: auto;
-    background-color: violet;
     margin-top: 15px;
+    background-color: violet;
 }
 
 .clearfix::after {
@@ -26,15 +26,15 @@
 .high-section {
     width: 85%;
     min-height: 300px;
-    margin: 18px auto;
+    margin: 20px auto;
     background-color: #e1d67a;
 }
 
 .low-section {
     width: 85%;
     margin: auto;
-    background-color: #0186ff;
     margin-top: 15px;
+    background-color: #0186ff;
 }
 
 .row-up-col {
@@ -46,9 +46,9 @@
     width: 20%;
     min-height: 315px;
     float: left;
-    background-color: #abcfe7;
     margin-bottom: 15px;
     margin-top: 15px;
+    background-color: #abcfe7;
 }
 
 .middle-col {
