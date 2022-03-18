@@ -10,7 +10,6 @@
 }
 
 .titolo {
-    width: 85%;
     height: 85px;
     margin: auto;
     margin-top: 15px;
@@ -24,43 +23,40 @@
 }
 
 .high-section {
-    width: 85%;
     min-height: 300px;
     margin: 20px auto;
     background-color: #e1d67a;
 }
 
 .low-section {
-    width: 85%;
     margin: auto;
     margin-top: 15px;
     background-color: #0186ff;
 }
 
-.row-up-col {
+.row-up-columns {
     min-height: 50px;
     background-color: #abcfe7;
 }
 
 .left-col, .right-col {
     width: 20%;
-    min-height: 315px;
-    float: left;
     margin-bottom: 15px;
     margin-top: 15px;
-    background-color: #abcfe7;
 }
 
 .middle-col {
     width: calc(60% - 24px);
+    margin: 15px 12px;
+}
+
+div[class$="col"] {
     min-height: 315px;
     float: left;
-    margin: 15px 12px;
     background-color: #abcfe7;
 }
 
-.row-down-col {
-    width: 85%;
+.row-down-columns {
     min-height: 40px;
     margin: 5px auto;
     background-color: #8801fe;
